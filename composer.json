@@ -1,0 +1,23 @@
+{
+  "name": "etre2/magento-improved-import",
+  "description": "BETA",
+  "type": "magento-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tyler Mills",
+      "email": "tylerssn@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra":{
+    "magento-root-dir":"./",
+    "map":[
+      ["src/app/etc/modules/Etre_ImprovedImport.xml", "app/etc/modules/Etre_ImprovedImport.xml"],
+      ["src/app/code/local/Etre/ImprovedImport", "app/code/local/Etre/ImprovedImport"]
+    ]
+  }
+}

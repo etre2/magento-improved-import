@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Etre_ImprovedImport>
+            <version>0.1.0</version>
+        </Etre_ImprovedImport>
+    </modules>
+    <global>
+        <models>
+            <etre_improvedimport>
+                <class>Etre_ImprovedImport_Model</class>
+                <resourceModel>etre_improvedimport_resource</resourceModel>
+            </etre_improvedimport>
+            <etre_improvedimport_resource>
+                <class>Etre_ImprovedImport_Model_Resource</class>
+            </etre_improvedimport_resource>
+            <catalog>
+                <rewrite>
+                    <convert_adapter_product>Etre_ImprovedImport_Model_Rewrite_Catalog_Convert_Adapter_Product</convert_adapter_product>
+                </rewrite>
+            </catalog>
+        </models>
+        <helpers>
+            <etre_improvedimport>
+                <class>Etre_ImprovedImport_Helper</class>
+            </etre_improvedimport>
+        </helpers>
+    </global>
+</config>
